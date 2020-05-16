@@ -1,1 +1,0 @@
-/home/benhodge/Desktop/git/rust/the_rust_programming_language/ch_01/projects/hello_cargo/target/debug/hello_cargo: /home/benhodge/Desktop/git/rust/the_rust_programming_language/ch_01/projects/hello_cargo/src/main.rs
