@@ -1,20 +1,22 @@
 fn main() {
-  #[derive(Debug)]
-  enum SpreadsheetCell {
-    Int(i32),
-    Float(f64),
-    Text(String),
-  }
 
-  let row: Vec<SpreadsheetCell> = vec![
-    SpreadsheetCell::Int(3),
-    SpreadsheetCell::Float(1.3),
-    SpreadsheetCell::Text(String::from("hello")),
-  ];
+  // USING AN ENUM AS THE DATATYPE
+  // #[derive(Debug)]
+  // enum SpreadsheetCell {
+  //   Int(i32),
+  //   Float(f64),
+  //   Text(String),
+  // }
 
-  for cell in &row {
-    println!("Cell: {:?}", cell)
-  }
+  // let row: Vec<SpreadsheetCell> = vec![
+  //   SpreadsheetCell::Int(3),
+  //   SpreadsheetCell::Float(1.3),
+  //   SpreadsheetCell::Text(String::from("hello")),
+  // ];
+
+  // for cell in &row {
+  //   println!("Cell: {:?}", cell)
+  // }
 
   // // ITERATING OVER MUTABLE
   // let mut v = vec![1, 2, 3];
